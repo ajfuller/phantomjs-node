@@ -4,7 +4,9 @@ webpage = core_require('webpage');
 shoe     = require('shoe');
 dnode    = require('dnode');
 
-[port] = phantom.args
+system = core_require('system');
+
+port = system.args[1]
 
 # controlPage = webpage.create()
 
